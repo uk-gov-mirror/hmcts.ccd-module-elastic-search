@@ -144,7 +144,7 @@ variable "privateip_allocation" {
 variable "azure_monitor_auto_upgrade_minor_version" {
   description = "Specifies if the platform deploys the latest minor version Azure Monitor update to the type_handler_version specified."
   type        = bool
-  default     = false
+  default     = true
 }
 
 variable "azure_monitor_type_handler_version" {
